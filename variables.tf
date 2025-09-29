@@ -1,16 +1,17 @@
 ### VARIABLES
 variable "project-id" {
   type = string
+  default = "hl2-epm-aiti-t1iylu" #replace this with your project-id
 }
 
 variable "region" {
   type = string
-  default = "us-central1"
+  default = "europe-west3"
 }
 
 variable "zone" {
   type = string
-  default = "us-central1-a"
+  default = "europe-west3-a"
 }
 
 variable "subnet-name" {
